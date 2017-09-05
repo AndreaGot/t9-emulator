@@ -6,7 +6,7 @@
 
     $(function(){
         $.ajax({
-            url: 'data/dictionary.txt',
+            url: 'data/itdictionary.txt',
             success: function(data, textStatus, jqXHR ) {
                 $('.loading p').text('Dictionary file downloaded!');
                 _.delay(function(){
